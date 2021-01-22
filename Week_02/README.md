@@ -28,3 +28,6 @@ cms收集器生成对象次数:9380
 三、对于GCLogAnalysis脚本的建议
     1、脚本中对于数据的处理是单线程，考虑使用多线程达到最大CPU使用率，同时考察在最大CPU使用率的情况下系统的屯粗粮
     2、如果使用多线程 System.currentTimeMillis() 方法在高并发下性能较差，建议使用 Thread.sleep 的方式
+    
+    
+注：不同GC和堆内存的总结写在 README.md 文件中，httpclient 项目为访问 http://localhost:8088/api/hello 的源代码
